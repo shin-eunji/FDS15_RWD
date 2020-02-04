@@ -1,3 +1,27 @@
 body {
     background-color: pink;
+    font-size: 1.4rem;
+}
+.container {
+    width: 100%;
+}
+.appMain {
+    width: 100%;
+    flex-flow: column nowrap;
+}
+.appMain .book {
+    width: 100%;
+}
+.appMain .news {
+    flex-basis: 660px;
+}
+.appMain .board {
+    flex-basis: 320px;
+}
+.appMain .favorite {
+    flex-basis: 420px;
+    order: 1;
+}
+.appMain .twitter {
+    flex-basis: 220px;
 }
