@@ -3,37 +3,32 @@ body {
     font-size: 1.6rem;
 }
 .container {
-    
+    justify-content: center;
 }
-.appHeader {
+.appHeader, .appMain {
     width: 1000px;
-    margin: 0 auto;
 }
-.appNavigation {
+.appNavigation, .appFooter {
+    width: 100%;
 }
 .appMain {
-    width: 1000px;
-    margin: 0 auto;
     height: 600px;
-    flex-flow: row wrap;
     justify-content: space-between;
     align-items: stretch;
 }
-.appMain .book {
-    flex-basis: 320px;
+.book {
+    width: 32%;
 }
-.appMain .news {
-    flex-basis: 660px;
+.news {
+    width: 66%;
 }
-.appMain .board {
-    flex-basis: 320px;
+.board {
+    width: 32%;
 }
-.appMain .favorite {
-    flex-basis: 220px;
+.favorite {
+    width: 22%;
     order: 1;
 }
-.appMain .twitter {
-    flex-basis: 420px;
-}
-.appFooter {
+.twitter {
+    width: 42%;
 }

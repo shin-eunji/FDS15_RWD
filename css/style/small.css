@@ -2,26 +2,20 @@ body {
     background-color: pink;
     font-size: 1.4rem;
 }
-.container {
+.appHeader, .appMain, .appFooter {
     width: 100%;
+}
+.appNavigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70vw;
+    height: 100vh;
+    transform: translate(-100%);
 }
 .appMain {
+    min-height: 70vh;
+}
+.book, .news, .board, .favorite, .twitter {
     width: 100%;
-    flex-flow: column nowrap;
-}
-.appMain .book {
-    width: 100%;
-}
-.appMain .news {
-    flex-basis: 660px;
-}
-.appMain .board {
-    flex-basis: 320px;
-}
-.appMain .favorite {
-    flex-basis: 420px;
-    order: 1;
-}
-.appMain .twitter {
-    flex-basis: 220px;
 }
