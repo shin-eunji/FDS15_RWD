@@ -55,6 +55,7 @@ input[name="search"] {
     margin: 0 5px;
     padding-left: 1em;
     width: calc(100% - 45px);
+    vertical-align: middle;
 }
 .buttonSearch {
     width: 35px;
