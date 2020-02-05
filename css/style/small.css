@@ -56,5 +56,6 @@ input[name="search"]{
     top: 0;
     left: 0;
     background-image: url(./../images/btn_search.png);
+    background-repeat: no-repeat;
     background-size: contain;
 }
