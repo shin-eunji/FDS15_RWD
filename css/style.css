@@ -7,14 +7,11 @@
 @import url(./style/public.css);
 @import url(./style/background.css);
 
-body {
-    /* background-color: yellow; */
-}
-.container {
+/* .container {
     display: flex;
     flex-flow: row wrap;
 }
 .appMain {
     display: flex;
     flex-flow: row wrap;
-}
+} */

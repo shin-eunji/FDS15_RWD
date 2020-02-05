@@ -1,5 +1,14 @@
 /* 공통 스타일 */
+/* 링크 스타일 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /* 박스 모델 초기화 */
 body, body *, body *::before, body *::after {
     box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
 }
