@@ -7,11 +7,6 @@
 @import url(./style/public.css);
 @import url(./style/background.css);
 
-/* .container {
-    display: flex;
-    flex-flow: row wrap;
+body{
+    background-color: yellow;
 }
-.appMain {
-    display: flex;
-    flex-flow: row wrap;
-} */
