@@ -106,3 +106,7 @@ input[name="search"]{
 .twitter{
     width: 420px;
 }
+/* 푸터 */
+.appFooter {
+    text-align: center;
+}

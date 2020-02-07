@@ -1,8 +1,12 @@
 body{
     font-size: 1.4rem;
   }
-  .appHeader, .appMain, .appFooter{
+  .appHeader .appMain, .appFooter {
     width: 100%;
+  }
+  .appMain, .appFooter{
+    width: 100%;
+    padding: 0 20px;
   }
   /* 헤더 */
   .appHeader{
@@ -141,6 +145,13 @@ body{
     display: block;
   } 
   /* 메인 콘텐츠 */
+  .appMain {
+    padding-bottom: 2em;
+  }
   .book, .news, .board, .favorite, .twitter{
     width: 100%;
+  }
+  /* 푸터 */
+  .address span {
+    display: block;
   }
