@@ -4,6 +4,7 @@ const btn = nav.querySelector('.buttonBurger');
 const list = nav.querySelector('.menu__list');
 const items = list.querySelectorAll('.menu__item');
 const links = list.querySelectorAll('.menu__link');
+const icons = document.querySelectorAll('.board__list a');
 
 // 상태 변수
 let mode = null;
@@ -39,7 +40,10 @@ function render(){
 	}
 	// 모드가 변경되면, 모드의 상태 업데이트
 	mode = isMobile;
-
+	for (let i = 0; i < icons.length; i++) {
+		let icon = icons[i];
+		icon.classList.add('icon-star');
+	}
 	if (isMobile) {
 		// 모바일 환경의 경우....
 		list.style.transition = 'all 0.2s';
