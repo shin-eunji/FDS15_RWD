@@ -59,7 +59,7 @@ input[name="search"]{
     flex-flow: row nowrap;
     justify-content: space-around;
 }
-.buttonNone {
+.buttonBurger {
     display: none;
 }
 .menu__list {
@@ -70,12 +70,14 @@ input[name="search"]{
     color: #fff;
 }
 .menu__link {
+    cursor: default;
     font-size: 1.8rem;
     font-weight: 900;
     text-shadow: 1px 0 0 #000,
                 0 1px 0 #000,
                 -1px 0 0 #000,
                 0 -1px 0 #000;
+    outline: none;
 }
 .menu__item {
     font-size: 1.7rem;
